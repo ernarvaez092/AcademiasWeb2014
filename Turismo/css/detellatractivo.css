@@ -1,0 +1,179 @@
+body{
+	width: 70%;
+	height: 100%;
+	margin:0 auto;
+	background-image: url("../img/fondop.jpg");	
+	font-family: Arial,Helvetica,sans-serif;
+}
+header{
+width: 100%;
+height: 50px;
+margin:0 auto;
+margin-top: 2em;
+
+}
+
+#logo{
+	margin-top: 0.5em;	
+	margin-left:0.2em;	
+	width: 30%;
+}
+
+/* MENU PRINCIPAL*/
+#menu_principal  {
+    background-image: url("../images/menu.png");
+    background-repeat:repeat-x;
+	margin-top: -5.1em;		
+	padding-bottom: 0.1em;
+	padding-top: 0.1em;
+	border-radius: 45px 45px 95px 95px;
+	   text-shadow: 0 0 10px white,
+                   0 0 20px white,
+                   0 0 30px white,
+                   0 0 40px white,
+                   0 0 70px white,
+                   0 0 80px white,
+                   0 0 100px white,
+                   0 0 150px white;
+	
+}
+#menu_principal  li{
+	display:inline-block;
+	list-style:none;
+	margin-top: 6px;
+	font-size: 14px;
+		
+}
+#menu_principal  ul  { 
+	text-align: center;
+	margin-left: -15px;
+}
+#menu_principal  ul a:hover { 
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	background-size: 35px;
+	height: 35px;
+	background: none repeat scroll 0% 0% green;
+	border-radius: 85px 85px 95px 95px;
+}
+#menu_principal  a{	
+	padding-right: 9px;
+    padding-left: 9px;
+	list-style:none;
+	color: white;
+	text-decoration:none;  
+	
+
+}
+
+/* TERMINA MENU PRINCIPAL*/
+
+@media screen and (max-width:1000px){
+   section{
+      width:100%;
+   }
+}
+@media screen and (max-width:700px){
+   article{
+      width:100%;
+   }
+}
+@media screen and (max-width:700px){
+   img{
+      width:100%;
+   }
+}
+/* Comienza Detalles */
+
+h1{
+	font-size: 1em;
+	color: green;
+}
+h3{
+	text-decoration: underline;
+	color: brown;
+}
+#contenedor {
+   margin-top: 2.5em;
+}
+#contenedor p{
+    font-size: 1em;
+    margin-left: 10em;
+    margin-top: -2.5em;
+}
+#datos_generales{
+	
+	padding-left: 0.5em;
+	width: 40%;
+	height: 300px;
+	float: left;
+}
+#ubicacion{
+	padding-left: 0.5em;
+	width:40%;
+	height: 300px;
+	display: inline-block;	
+
+}
+#temperatura{	
+	margin-top: -20em;
+	margin-left: 50em;
+	width: 20%;
+	height: 60px;
+	display: inline-block;	
+	background-image: url("../images/clima.png");
+
+
+}
+#caracteristicas{
+	margin-top: -3.5em;
+	width: 100%;
+
+
+}
+#foda{
+
+	margin-top: 0.5em;
+	width: 100%;	
+    border-style: solid;
+    display: inline-block;
+
+}
+#foda h3{
+	text-decoration: none;
+    text-align: center;
+  
+
+}
+#foda article{	
+	float: left;
+	width: 49.3%;
+	height: 100px;	
+	border-style: solid;
+}
+#foda article h1{
+	color: brown;
+	text-align: center;
+	font-family: cursive;
+}
+#foda article p2{
+	margin-left: 1.5em;
+	font-size: 1em;
+	
+}
+#map-canvas {
+
+        height: 50%;
+        margin: 0px;
+        padding: 0px;
+        border-style: solid;
+}
+footer{
+	font-family: cursive;
+	margin-top: 0.5em;
+	width: 100%;
+	height: 35px;
+	background-image: url("../images/menu.png");
+	text-align: center;
+
+}
